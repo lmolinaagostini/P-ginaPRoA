@@ -1,0 +1,215 @@
+@font-face{
+    font-family: "read";
+    src: url(fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background-color: rgb(118, 163, 181);
+    
+    min-height: 100%;
+}
+.mapa{
+    width: 900px;
+    margin-left: 25%;
+}
+.navbar-brand1{
+    color: rgb(54, 91, 255);
+    opacity: 75%;
+    text-align: center;
+    font-size: 100px;
+    font-family: read;
+    text-decoration: none;
+    margin-right: 15%;
+    
+}
+
+.navbar-brand{
+    text-decoration: underline;
+    color: rgb(74, 152, 255);
+    font-family: "read";
+    font-size: larger;
+}
+.navbar-brand2{
+    text-decoration: none;
+    color: rgb(74, 152, 255);
+    font-family: read;
+    font-size: 25px;
+}
+
+.logo{
+    width: 200px;
+    margin: 2px 2px 0px 2px;
+}
+
+.texto{
+    font-size: large;
+    text-align: center;
+    font-family: read;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 900px;
+    margin-left: 25%;
+    
+}
+
+.texto2{
+    font-size: x-large;
+    text-align: justify;
+    font-family: read;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: rgba(118, 188, 253, 0.507);
+    width: 460px;
+    color: white;
+    
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4{
+    color:  rgb(54, 91, 255);
+    font-size: 40px;
+}
+
+h2{
+    color: red;
+    font-size: 50px;
+    margin-left: 2%;
+}
+
+img{
+    margin-top: 2%;
+    width: 300px;
+    margin-left: 2%;
+}
+
+.collapse{
+    margin-left: 9.5%;
+}
+
+.texto3{
+    font-size: x-large;
+    text-align: justify;
+    font-family: read;
+    margin-top: 10%;
+    background-color: rgb(118, 188, 253, 0.507);
+    width: 200px;
+    color: white;
+    margin-left: 800px;
+    
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+.btn1{
+    margin-left: 850px;
+    background-color: black;
+    color: white;
+    border-style: 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.foto{
+    width: 1000px;
+    height: 500px;
+    margin-left: 15.5%;
+    margin-right: 5%;
+    margin-top: 0%;
+}
+
+.pie{
+    margin-left: none; 
+    text-align: justify;
+    font-size: xx-large;
+}
+
+.mapa1{
+    margin-top: 10px;
+}
+
+.foto2{
+    width: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+}
+
+
+.form_container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+
+}
+
+.form_title{
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: .4em;
+}
+
+.form_input{
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0bb;
+    border-radius: 0.2em;
+}
+
+.form_input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+    background-color: #a4daf1;
+}
+
+.form_input{
+    background-color: #a4daf1;
+}
+
+.form_cta{
+    background-color: #089fe0;
+    color: white;
+    border:none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+
+
+.formulario{
+    background-color: rgb(12, 127, 156);
+    width: 90%;
+    margin: 100px;
+    max-width: 600px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    color: white;
+    margin-left: 32%;
+}
+
+.presentacion{
+    background-color: white;
+    font-size: 1.9em ;
+    font-family: read;
+}
+
+
+.verde{
+    color: green;
+}
